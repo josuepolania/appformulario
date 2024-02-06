@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Página Web</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <h1>📒MASTERDIC</h1>
+            <ul>
+                <li><a href="#">inicio</a></li>
+                <li><a href="#">servicios</a></li>
+                <li><a href="#">contacto</a></li>
+                <li>
+                    <button type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#myModal">
+                        iniciar sesion
+                    </button>
+                </li>
+                <li>
+                    <button type="button" class="btn btn-warning">Registro</button>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="middle-container">
+        <div class="div-titulo">
+            <h1>Formulario plataforma de Aprendizaje</h1>
+        </div>
+
+        <div class="contenedor">
+
+            <div class="div-formulario">
+                <h2>Formulario</h2>
+
+                <form action="#" id="formulario">
+                    <input type="text" id="nombre" placeholder="Ingresa un nombre">
+                    <input type="text" id="puesto" placeholder="Ingresa el puesto">
+                    <button type="submit" id="btnAgregar">Agregar</button>
+                </form>
+            </div>
+
+            <div class="div-listado">
+                <h2>Listado Usuarios</h2>
+                <div class="div-empleados">
+
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="./app.js"></script>
+</body>
+
+</html>
